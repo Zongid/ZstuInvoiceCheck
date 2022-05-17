@@ -6,6 +6,8 @@
 
 可仅保留其中的program文件夹，Chromedriver文件夹、img文件夹、README.md可删除
 
+[操作示例视频](./video/操作示例.mp4)
+
 ## 运行配置
 
 ### 1. 下载浏览器驱动
@@ -38,6 +40,9 @@
 
 ### 4.双击PDF2PNG.exe运行
 选择发票文件所在文件夹，将pdf文件转为png图片
+
+（若发票已经均为图片，则省略此步骤，直接下一步运行InvoiceCheck.exe程序）
+
 ### 5. 双击InvoiceCheck.exe运行
 
 选择发票图像，查验发票
@@ -46,13 +51,15 @@
 
 ### 可直接点击ZstuInvoiceCheck.bat依次运行4和5两步
 
+选择文件夹-->选择发票图像
+
 
 
 # 注意
 
 1. 仅支持浙江理工大学校园网环境；
 2. 只需第一次操作1、2、3，后续可直接运行程序；
-2. 第一次运行ZstuInvoiceCheck.bat之前最好运行过PDF2PNG.exe、InvoiceCheck.exe两个程序；
+2. 第一次运行ZstuInvoiceCheck.bat之前最好提前运行过PDF2PNG.exe、InvoiceCheck.exe两个程序；
 3. 每次可选择**多张**发票图像；
 4. json文件可用**记事本**、**Sublime Text**等应用程序打开修改；
 5. 仅支持**增值税电子普通发票**，深圳区块链发票、机打发票等暂不支持；
