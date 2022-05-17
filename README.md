@@ -6,6 +6,8 @@
 
 可仅保留其中的program文件夹，Chromedriver文件夹、img文件夹、README.md可删除
 
+## 运行配置
+
 ### 1. 下载浏览器驱动
 
 需根据自己的Chrome浏览器的版本选择下载（链接[Chromedriver](http://npm.taobao.org/mirrors/chromedriver/)）
@@ -18,7 +20,7 @@
 
 查看Chrome版本方式：
 
-![Chromeversion](E:/李耀宗/大四/else/发票识别与校验程序/ZstuInvoiceCheck/img/Chromeversion.png)
+![Chromeversion](./img/Chromeversion.png)
 
 ### 2. 把chromedriver.exe文件复制到浏览器的安装目录下
 
@@ -32,7 +34,17 @@
 
 例：{"chromedriverpath":"X:/Google/Chrome/Application/chromedriver.exe","username":"2018327113028","password":"lyzmima"}
 
-### 4. 双击InvoiceCheck.exe运行
+## 运行程序
+
+### 4.双击PDF2PNG.exe运行
+选择发票文件所在文件夹，将pdf文件转为png图片
+### 5. 双击InvoiceCheck.exe运行
+
+选择发票图像，查验发票
+
+
+
+### 可直接点击ZstuInvoiceCheck.bat依次运行4和5两步
 
 
 
@@ -40,6 +52,7 @@
 
 1. 仅支持浙江理工大学校园网环境；
 2. 只需第一次操作1、2、3，后续可直接运行程序；
+2. 运行ZstuInvoiceCheck.bat之前最好运行过PDF2PNG.exe、InvoiceCheck.exe两个程序；
 3. 每次可选择**多张**发票图像；
 4. json文件可用**记事本**、**Sublime Text**等应用程序打开修改；
 5. 仅支持**增值税电子普通发票**，深圳区块链发票、机打发票等暂不支持；
