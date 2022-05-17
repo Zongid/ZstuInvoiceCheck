@@ -4,7 +4,7 @@
 
 ## 下载[ZstuInvoiceCheck.zip](https://github.com/Zongid/ZstuInvoiceCheck/archive/refs/heads/main.zip)并解压缩
 
-可仅保留其中的program文件夹，Chromedriver文件夹、img文件夹、README.md可删除
+可仅保留其中的program文件夹，Chromedriver文件夹、img文件夹、video文件夹、README.md可删除
 
 [操作示例视频](./video/操作示例.mp4)
 
