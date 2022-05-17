@@ -2,7 +2,7 @@
 
 # 使用说明
 
-## 下载[InvoiceCheck.zip](https://github.com/Zongid/InvoiceCheck/archive/refs/heads/main.zip)并解压缩
+## 下载[ZstuInvoiceCheck.zip](https://github.com/Zongid/ZstuInvoiceCheck/archive/refs/heads/main.zip)并解压缩
 
 可仅保留其中的program文件夹，Chromedriver文件夹、img文件夹、README.md可删除
 
@@ -52,7 +52,7 @@
 
 1. 仅支持浙江理工大学校园网环境；
 2. 只需第一次操作1、2、3，后续可直接运行程序；
-2. 运行ZstuInvoiceCheck.bat之前最好运行过PDF2PNG.exe、InvoiceCheck.exe两个程序；
+2. 第一次运行ZstuInvoiceCheck.bat之前最好运行过PDF2PNG.exe、InvoiceCheck.exe两个程序；
 3. 每次可选择**多张**发票图像；
 4. json文件可用**记事本**、**Sublime Text**等应用程序打开修改；
 5. 仅支持**增值税电子普通发票**，深圳区块链发票、机打发票等暂不支持；
