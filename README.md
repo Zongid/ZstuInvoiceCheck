@@ -9,8 +9,11 @@
 [操作示例视频](./video/操作示例.mp4)
 
 ## 运行配置
+### 1. 下载并安装Chrome浏览器
 
-### 1. 下载浏览器驱动
+如已安装请忽略此步（[Chrome下载地址](https://www.google.cn/chrome/)）
+
+### 2. 下载浏览器驱动
 
 需根据自己的Chrome浏览器的版本选择下载（链接[Chromedriver](http://npm.taobao.org/mirrors/chromedriver/)）
 
@@ -24,11 +27,11 @@
 
 ![Chromeversion](./img/Chromeversion.png)
 
-### 2. 把chromedriver.exe文件复制到浏览器的安装目录下
+### 3. 把chromedriver.exe文件复制到浏览器的安装目录下
 
 例：C:\Program Files (x86)\Google\Chrome\Application    （要根据自己实际安装目录）
 
-### 3. 修改json文件并保存
+### 4. 修改json文件并保存
 
 将  "chromedriverpath":"驱动路径"  中的“驱动路径”修改为第2步中的路径
 
@@ -38,29 +41,15 @@
 
 ## 运行程序
 
-### 4.双击PDF2PNG.exe运行
-选择发票文件所在文件夹，将pdf文件转为png图片
-
-（若发票已经均为图片，则省略此步骤，直接下一步运行InvoiceCheck.exe程序）
-
-### 5. 双击InvoiceCheck.exe运行
-
-选择发票图像，查验发票
-
-
-
-### 可直接点击ZstuInvoiceCheck.bat依次运行4和5两步
-
-选择文件夹-->选择发票图像
-
+### 5.双击ZstuInvoiceCheck.exe运行
+选择发票文件所在文件夹，程序将会把pdf文件转为png图片，然后选择文件夹中的发票图像、提取信息、查验和生成统计结果Excel文件。
 
 
 # 注意
 
 1. 仅支持浙江理工大学校园网环境；
-2. 只需第一次操作1、2、3，后续可直接运行程序；
-2. 第一次运行ZstuInvoiceCheck.bat之前最好提前运行过PDF2PNG.exe、InvoiceCheck.exe两个程序；
-3. 每次可选择**多张**发票图像；
+2. 只需第一次操作1、2、3、4，后续可直接运行程序；
+3. 支持**pdf、png、jpg、jpeg、bmp**格式的发票文件，且可混合置于同一文件夹；
 4. json文件可用**记事本**、**Sublime Text**等应用程序打开修改；
 5. 仅支持**增值税电子普通发票**，深圳区块链发票、机打发票等暂不支持；
 6. 图像需包含左上角**二维码**，其他部分可有可无（程序通过识别二维码获取信息）；
