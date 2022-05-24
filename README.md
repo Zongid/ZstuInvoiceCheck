@@ -16,9 +16,9 @@
 
 附件：
 
-* [chromedriver_win32 101.0.4951.15.zip](./Chromedriver/chromedriver_win32%20101.0.4951.15.zip)
-* [chromedriver_win32 101.0.4951.41.zip](./Chromedriver/chromedriver_win32%20101.0.4951.41.zip)
-* [chromedriver_win32 102.0.5005.27.zip](./Chromedriver/chromedriver_win32%20102.0.5005.27.zip)
+* [chromedriver_win32 101.0.4951.15.zip](https://github.com/Zongid/ZstuInvoiceCheck/releases/download/v2.0.0/chromedriver_win32.101.0.4951.15.zip)
+* [chromedriver_win32 101.0.4951.41.zip](https://github.com/Zongid/ZstuInvoiceCheck/releases/download/v2.0.0/chromedriver_win32.101.0.4951.41.zip)
+* [chromedriver_win32 102.0.5005.27.zip](https://github.com/Zongid/ZstuInvoiceCheck/releases/download/v2.0.0/chromedriver_win32.102.0.5005.27.zip)
 
 查看Chrome版本方式：
 
