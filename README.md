@@ -2,11 +2,8 @@
 
 # 使用说明
 
-## 下载[ZstuInvoiceCheck.zip](https://github.com/Zongid/ZstuInvoiceCheck/archive/refs/heads/main.zip)并解压缩
+## 下载[ZstuInvoiceCheck.zip](https://github.com/Zongid/ZstuInvoiceCheck/releases/download/v2.0.0/ZstuInvoiceCheck_v2.0.0.zip)并解压缩
 
-可仅保留其中的program文件夹，Chromedriver文件夹、img文件夹、video文件夹、README.md可删除
-
-[操作示例视频](./video/操作示例.mp4)
 
 ## 运行配置
 ### 1. 下载并安装Chrome浏览器
