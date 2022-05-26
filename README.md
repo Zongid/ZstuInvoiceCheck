@@ -1,8 +1,16 @@
 # 浙江理工大学发票查验程序
+v1.0.0
+……
+v2.0.0
+1. 合并PDF2PNG、发票查验；
+2. 增加异常判断与结束程序；
+3. 增加运行错误、完成等messagebox提示；
+4. 修改定位元素方式。将Full Xpath改为文本匹配方式；
+
 
 # 使用说明
 
-## 点击下载-->[ZstuInvoiceCheck.zip](https://github.com/Zongid/ZstuInvoiceCheck/releases/download/v2.0.0/ZstuInvoiceCheck_v2.0.0.zip)并解压缩
+## 点击下载->[ZstuInvoiceCheck.zip](https://github.com/Zongid/ZstuInvoiceCheck/releases/download/v2.0.0/ZstuInvoiceCheck_v2.0.0.zip)并解压缩
 
 
 ## 运行配置
