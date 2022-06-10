@@ -18,14 +18,14 @@ v3.0.0
 1. 增加驱动版本检测与更新功能；
 
     运行程序时先查验chromedriver版本与chrome浏览器是否相兼容，
-    
+
     若不兼容，则下载更新匹配的chromedriver。
 2. chromedriver所在文件夹需添加至环境变量，无需在json文件中编辑；
 
 
 # 使用说明
 
-## 点击下载->[ZstuInvoiceCheck.zip](https://github.com/Zongid/ZstuInvoiceCheck/releases/download/v2.0.0/ZstuInvoiceCheck_v2.0.0.zip)并解压缩
+## 点击下载>>[ZstuInvoiceCheck.zip](https://github.com/Zongid/ZstuInvoiceCheck/releases/download/v3.0.0/ZstuInvoiceCheck_v3.0.0.zip)<<并解压缩
 
 
 ## 运行配置
