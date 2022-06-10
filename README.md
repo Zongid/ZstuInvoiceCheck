@@ -8,7 +8,17 @@ v2.0.0
 1. 合并PDF2PNG、发票查验；
 2. 增加异常判断与结束程序；
 3. 增加运行错误、完成等messagebox提示；
-4. 修改定位元素方式。将Full Xpath改为文本匹配方式；
+4. 修改定位元素方式，将Full Xpath改为文本匹配方式；
+
+v2.1.0
+打开浏览器错误原因可能为Chrome已更新，现有驱动版本不符
+1. 增加Update.exe程序检测Chromedriver是否为最新版本；
+
+v3.0.0
+1. 增加驱动版本检测与更新功能；
+    运行程序时先查验chromedriver版本与chrome浏览器是否相兼容，
+    若不兼容，则下载更新匹配的chromedriver。
+2. chromedriver所在文件夹需添加至环境变量，无需在json文件中编辑；
 
 
 # 使用说明
@@ -39,24 +49,24 @@ v2.0.0
 
 例：C:\Program Files (x86)\Google\Chrome\Application    （要根据自己实际安装目录）
 
-### 4. 修改json文件并保存
+### 4. 将上一步的安装目录添加到系统环境变量
 
-将  "chromedriverpath":"驱动路径"  中的“驱动路径”修改为第2步中的路径
+### 5. 修改json文件并保存
 
 将  "username":"账号","password":"密码"  中的“账号”、“密码”修改为自己的账号密码
 
-例：{"chromedriverpath":"X:/Google/Chrome/Application/chromedriver.exe","username":"2018327113028","password":"lyzmima"}
+例：{"username":"2018327113028","password":"lyzmima"}
 
 ## 运行程序
 
-### 5.双击ZstuInvoiceCheck.exe运行
+### 6.双击ZstuInvoiceCheck.exe运行
 选择发票文件所在文件夹，程序将会把pdf文件转为png图片，然后选择文件夹中的发票图像、提取信息、查验和生成统计结果Excel文件。
 
 
 # 注意
 
 1. 仅支持浙江理工大学校园网环境；
-2. 只需第一次操作1、2、3、4，后续可直接运行程序；
+2. 只需第一次操作1、2、3、4、5，后续可直接运行程序；
 3. 支持**pdf、png、jpg、jpeg、bmp**格式的发票文件，且可混合置于同一文件夹；
 4. json文件可用**记事本**、**Sublime Text**等应用程序打开修改；
 5. 仅支持**增值税电子普通发票**，深圳区块链发票、机打发票等暂不支持；
