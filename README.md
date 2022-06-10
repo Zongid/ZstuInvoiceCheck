@@ -53,6 +53,8 @@ v3.0.0
 
 ### 4. 将上一步的安装目录添加到系统环境变量
 
+例：C:\Program Files (x86)\Google\Chrome\Application    （要根据自己实际安装目录）
+
 ### 5. 修改json文件并保存
 
 将  "username":"账号","password":"密码"  中的“账号”、“密码”修改为自己的账号密码
