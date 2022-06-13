@@ -27,6 +27,7 @@
 1. 更新messagebox
 ### v3.1.1
 1. 更新部分messagebox信息
+2. try/except检测更新提示
 
 # 使用说明
 
