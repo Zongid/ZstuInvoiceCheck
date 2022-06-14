@@ -29,6 +29,13 @@
 1. 更新部分messagebox信息
 2. try/except检测更新提示
 
+### v4.0.0
+1. 添加可视化界面
+    * 显示Chrome、Driver版本
+    * 显示所选发票文件夹、统计结果保存文件夹
+    * 自行检测更新Driver
+    * 通过点击按钮完成操作
+
 # 使用说明
 
 ## 点击下载>>[ZstuInvoiceCheck.zip](https://github.com/Zongid/ZstuInvoiceCheck/releases/download/v4.0.0/ZstuInvoiceCheck_v4.0.0.zip)<<并解压缩
