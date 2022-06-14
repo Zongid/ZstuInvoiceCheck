@@ -31,7 +31,7 @@
 
 # 使用说明
 
-## 点击下载>>[ZstuInvoiceCheck.zip](https://github.com/Zongid/ZstuInvoiceCheck/releases/download/v3.0.0/ZstuInvoiceCheck_v3.0.0.zip)<<并解压缩
+## 点击下载>>[ZstuInvoiceCheck.zip](https://github.com/Zongid/ZstuInvoiceCheck/releases/download/v4.0.0/ZstuInvoiceCheck_v4.0.0.zip)<<并解压缩
 
 
 ## 运行配置
@@ -70,7 +70,7 @@
 ## 运行程序
 
 ### 6.双击ZstuInvoiceCheck.exe运行
-选择发票文件所在文件夹，程序将会把pdf文件转为png图片，然后选择文件夹中的发票图像、提取信息、查验和生成统计结果Excel文件。
+首先选择发票文件所在文件夹，统计结果默认保存至程序所在目录，也可自行修改，点击”开始查验“按钮，程序将会把pdf文件转为png图片，然后选择文件夹中的发票图像、提取信息、查验和生成统计结果Excel文件。
 
 
 # 注意
@@ -79,9 +79,10 @@
 2. 只需第一次操作1、2、3、4、5，后续可直接运行程序；
 3. 支持**pdf、png、jpg、jpeg、bmp**格式的发票文件，且可混合置于同一文件夹；
 4. json文件可用**记事本**、**Sublime Text**等应用程序打开修改；
-5. 仅支持**增值税电子普通发票**，深圳区块链发票、机打发票等暂不支持；
-6. 图像需包含左上角**二维码**，其他部分可有可无（程序通过识别二维码获取信息）；
-7. libiconv.dll、libzbar-64.dll、userdata.json**不可删除或重命名**；
-8. 查验结果为<font color=#FF0000>**NULL**</font>（红色加粗）时，说明未能识别出发票信息，需人工查验；
-9. 若财务系统再次改版，此程序将不再适用；
-10. 其他未尽事宜  <Zongid@outlook.com>
+5. 注意驱动版本是否与浏览器兼容，如不版本差异较大，可点击更新按钮以更新驱动
+6. 仅支持**增值税电子普通发票**，深圳区块链发票、机打发票等暂不支持；
+7. 图像需包含左上角**二维码**，其他部分可有可无（程序通过识别二维码获取信息）；
+8. libiconv.dll、libzbar-64.dll、userdata.json**不可删除或重命名**；
+9. 查验结果为<font color=#FF0000>**NULL**</font>（红色加粗）时，说明未能识别出发票信息，需人工查验；
+10. 若财务系统再次改版，此程序将不再适用；
+11. 其他未尽事宜  <Zongid@outlook.com>
