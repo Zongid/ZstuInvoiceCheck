@@ -36,9 +36,13 @@
     * 自行检测更新Driver
     * 通过点击按钮完成操作
 
+### v4.1.0
+1. 添加强制更新按钮
+2. 更新driver后更新面板label
+
 # 使用说明
 
-## 点击下载>>[ZstuInvoiceCheck.zip](https://github.com/Zongid/ZstuInvoiceCheck/releases/download/v4.0.0/ZstuInvoiceCheck_v4.0.0.zip)<<并解压缩
+## 点击下载>>[ZstuInvoiceCheck.zip](https://github.com/Zongid/ZstuInvoiceCheck/releases/download/v4.1.0/ZstuInvoiceCheck_v4.1.0.zip)<<并解压缩
 
 
 ## 运行配置
