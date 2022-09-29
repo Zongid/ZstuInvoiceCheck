@@ -40,6 +40,10 @@
 1. 添加强制更新按钮
 2. 更新driver后更新面板label
 
+
+### v4.2.0
+1. 添加Checkbutton
+
 # 使用说明
 
 ## 点击下载>>[ZstuInvoiceCheck.zip](https://github.com/Zongid/ZstuInvoiceCheck/releases/download/v4.2.0/ZstuInvoiceCheck_v4.2.0.zip)<<并解压缩
