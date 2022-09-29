@@ -42,7 +42,7 @@
 
 # 使用说明
 
-## 点击下载>>[ZstuInvoiceCheck.zip](https://github.com/Zongid/ZstuInvoiceCheck/releases/download/v4.1.0/ZstuInvoiceCheck_v4.1.0.zip)<<并解压缩
+## 点击下载>>[ZstuInvoiceCheck.zip](https://github.com/Zongid/ZstuInvoiceCheck/releases/download/v4.2.0/ZstuInvoiceCheck_v4.2.0.zip)<<并解压缩
 
 
 ## 运行配置
