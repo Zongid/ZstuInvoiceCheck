@@ -44,9 +44,14 @@
 ### v4.2.0
 1. 添加Checkbutton
 
+
+### v4.2.1
+1. 更新删除PDF失败提示
+
+
 # 使用说明
 
-## 点击下载>>[ZstuInvoiceCheck.zip](https://github.com/Zongid/ZstuInvoiceCheck/releases/download/v4.2.0/ZstuInvoiceCheck_v4.2.0.zip)<<并解压缩
+## 点击下载>>[ZstuInvoiceCheck.zip](https://github.com/Zongid/ZstuInvoiceCheck/releases/download/v4.2.1/ZstuInvoiceCheck_v4.2.1.zip)<<并解压缩
 
 
 ## 运行配置
